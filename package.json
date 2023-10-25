@@ -2,13 +2,18 @@
   "name": "node-typescript",
   "version": "1.0.0",
   "description": "Node template with typescript",
-  "main": "index.js",
+  "main": "dist/app.js",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "typescript": "^5.1.6"
+    "@types/node": "^20.8.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
