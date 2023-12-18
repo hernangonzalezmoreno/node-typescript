@@ -5,11 +5,11 @@ describe('Cat', () => {
   describe('Métodos', () => {
     test('Maullar de Cat', async () => {
       const cat: Cat = new Cat();
-      expect('meow').toStrictEqual(cat.meow());
+      expect(cat.meow()).toBe('meow');
     });
     test('Ronronear de Cat', async () => {
       const cat: Cat = new Cat();
-      expect('purr').toStrictEqual(cat.purr());
+      expect(cat.purr()).toBe('purr');
     });
   });
 });
