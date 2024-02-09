@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { Cat } from './Cat/Cat.js';
+import { Cat } from './Cat/Cat';
 
 dotenv.config();
 const helloWorld: string | undefined = process.env.HELLO;
