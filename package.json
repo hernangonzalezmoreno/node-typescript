@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Node template with typescript",
   "main": "dist/app.js",
-  "type": "module",
+  "type": "commonjs",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "tsc && node dist/app.js",
+    "start": "tsc && node dist/src/app.js",
     "test": "jest --silent --verbose"
   },
   "devDependencies": {
